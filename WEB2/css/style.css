@@ -1,0 +1,149 @@
+h1{
+    font-size: 40px;
+}
+ul{
+    list-style:none;
+}
+.find_li{
+   margin: 20px  0px; 
+}
+a { text-decoration: none; color: black; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+
+@font-face {
+    font-family: 'font-name'; 
+    font-style: 'normal'; 
+    font-weight: 400;
+
+    src: url('GodoB.otf'); 
+}
+
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
+    background-image: url(back.jfif) ;
+    font-family: 'font-name';
+}
+.menu_bar{
+    display: inline-flex;
+    float: right;
+    font-size: 25px;
+    padding-top: 70px;
+    
+}
+.menu_bar_item{
+    margin-right: 30px;
+}
+.menu_bar_item:hover{
+    background-color: rgb(175, 201, 193);
+}
+.information{
+    padding-top: 300px;
+    padding-bottom: 300px;
+    padding-left: 100px;
+    width: 500px;
+    
+}
+
+.form1{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.form2{
+    text-align: center;
+    font-size: small;
+}
+#form3{
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.introduce{
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.basic_info{
+    text-align: left;
+}
+.basic_introduce{
+    text-align: center;
+    margin-right: 130px;
+}
+.learn{
+    text-align: center;
+}
+.learn1{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 30px;
+    padding-bottom: 100px;
+}
+.learn_box1{    
+    border-right: 1px solid;
+    
+
+}
+.learn_box2{
+
+}
+.find_me{
+    padding-left: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.find_me2{
+    text-align: center;
+    padding-top: 60px;
+    font-size: 30px;
+
+}
+.find_me3{
+    border-left: 0.7px solid;
+}
+.skill{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+.asd{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
+    display: none;
+}
+.skill_click{
+    color: rgb(168, 168, 168);
+}
+._html,.__js,._c,._java,._server{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.skill_name{
+    margin-bottom: 10px;
+}
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    text-align: center;
+
+    padding-bottom: 200px;
+}
+.guest_book{
+    text-align: center;
+    font-size: 50px;
+    text-align: center;
+
+    padding-top: 100px;
+}
+.page_title{
+    text-align: center;
+}
